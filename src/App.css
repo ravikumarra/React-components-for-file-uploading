@@ -1,0 +1,113 @@
+/* App.css */
+
+.upload-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.dropzone {
+  border: 2px dashed #007bff;
+  border-radius: 40px;
+  padding: 40px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: border-color 0.3s;
+}
+
+.dropzone.active {
+  border-color: #e69d00;
+}
+
+.file-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.file-preview {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.file-icon {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #555;
+  color: rgb(215, 209, 209);
+  border-radius: 4px;
+  margin-right: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.preview-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.file-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.file-detail {
+  margin-bottom: 5px;
+}
+
+.progress-bar {
+  height: 10px;
+  background: #555;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.progress {
+  height: 100%;
+  background: #00e676;
+  transition: width 0.3s;
+}
+
+.conversion-options {
+  margin-left: 20px;
+}
+
+.conversion-options label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.conversion-options select {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 120px;
+}
+
+.download-section {
+  margin-top: 10px;
+}
+
+.download-section a {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.download-section a:hover {
+  background-color: #0056b3;
+}
